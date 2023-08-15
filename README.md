@@ -4,7 +4,7 @@
 
 ### Screenshot
 
-![](./images)
+![](./images/ss-rating.png)
 
 ## My process
 
