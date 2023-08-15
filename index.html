@@ -14,5 +14,36 @@
     <title>Interactive Rating Component</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <main>
+      <img src="./images/icon-star.svg" class="div-star" alt="star" />
+      <h2>How did we do?</h2>
+      <p>
+        Please let us know we did with your support request. All feedback is
+        appreciated to help us improve our offering
+      </p>
+      <div class="container-btn">
+        <button class="btn-rating">1</button>
+        <button class="btn-rating">2</button>
+        <button class="btn-rating">3</button>
+        <button class="btn-rating">4</button>
+        <button class="btn-rating">5</button>
+      </div>
+      <button class="submit">SUBMIT</button>
+    </main>
+
+    <!-- thank you state -->
+    <section class="hidden">
+      <img src="./images/illustration-thank-you.svg" class="thk-img" alt="" />
+      <div class="selected">
+        You selected <span id="rating"></span> Out of 5
+      </div>
+      <h2>Thank you!</h2>
+      <p class="thank-p">
+        We appreciate you taking the time to give a rating. If you ever need
+        more support, don't hesitate to get in touch!
+      </p>
+    </section>
+    <script src="js/script.js"></script>
+  </body>
 </html>
